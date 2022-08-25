@@ -1,0 +1,25 @@
+1) git --version  *
+2) configure username and email  
+git config --global user.email "kanchansdeshpande@gmail.com" *
+git config --global user.name "kanchan070"  *
+
+
+3) Make folder on desktop (mkdir finalGit)
+4) Open the folder via visual studio code
+
+
+5) Send project from local to remote repo 
+
+a)git init  *
+b)git add . *
+c)git commit -m "firstcommit" *
+
+go to git hub 
+create new repository
+run three commands as it on terminal
+
+// make sure you copy and run from your github acc
+git branch -M main *
+git remote add origin https://github.com/Minskoleopc/finalGit.git *
+git push -u origin main *
+
